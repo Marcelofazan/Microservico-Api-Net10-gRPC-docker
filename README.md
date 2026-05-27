@@ -1,9 +1,9 @@
-### 🚀 Microservicos-Api10-CQRS
+## 🚀 Microservicos-Api10-CQRS
 
 Exemplo de criação de Arquitetura distribuida CQRS utilizando banco de dados MongoDB e Postgres.
 
 
-### O que você vai encontrar neste projeto
+#### O que você vai encontrar neste projeto
 | Tecnologia | Descrição |
 |-----------|-----------|
 | **RabbitMQ** | Agente de mensagens (message broker) ele atua como um carteiro altamente inteligente e seguro  |
@@ -11,8 +11,7 @@ Exemplo de criação de Arquitetura distribuida CQRS utilizando banco de dados M
 | **Mediatr** | Desacoplar classes, permitindo que diferentes componentes de um sistema se comuniquem através de um ponto central (o mediador) |
 ---
 
-
-#### Execução da aplicação
+#### Executa da aplicação
 
 VSCode Terminal [1]
 ```bash
@@ -56,7 +55,6 @@ dotnet ef database drop --project InfraEstrutura.Producao.Server --startup-proje
 docker compose down              
 ```
 
-### O que você vai encontrar neste projeto
 | Host | URL |
 |-----------|-----------|
 | **API** | https://localhost:7274/swagger/index.html |
