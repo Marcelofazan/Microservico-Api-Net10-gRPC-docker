@@ -7,7 +7,7 @@ namespace InfraEstrutura.Producao.DataModels.Data
         public ProducaoAppDbContext(DbContextOptions<ProducaoAppDbContext> options)
        : base(options) { }
 
-        public DbSet<ClienteDataModel> Lancamentos { get; set; }
+        public DbSet<ClienteDataModel> Clientes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
