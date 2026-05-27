@@ -53,13 +53,13 @@ dotnet ef database drop --project InfraEstrutura.Producao.Server --startup-proje
 ```bash 
 docker compose down              
 ```
-
+URL(s) usadas:
 | Host | URL |
 |-----------|-----------|
 | **API** | https://localhost:7274/swagger/index.html |
 | **gRPC** | https://localhost:7026/ |
 | **RabbitMQ** | http://localhost:15672 |
----
+
 RabbitMQ por padrão possui para acesso Login: **guest** **Senha: **guest** 
 
 #### 🧪 Executar Endpoints
