@@ -46,7 +46,7 @@ dotnet dev-certs https --clean
 dotnet dev-certs https --trust
 ```
 - Caso precisar deletar a Database do Container 
-- 
+  
 ```bash 
 dotnet ef database drop --project InfraEstrutura.Producao.Server --startup-project InfraEstrutura.Producao.Server --force
 ```
