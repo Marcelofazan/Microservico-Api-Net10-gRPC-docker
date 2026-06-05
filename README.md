@@ -68,7 +68,7 @@ https://localhost:7274/api/Cliente/create
 {
   "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
   "nome": "Marcelo",
-  "tipoPessoa": "FISICA",
+  "tipoPessoa": "fisica",
   "cpfCnpj": "999.999.999",
   "endereco": "R St Sebastian",
   "valor": 1500.50,
@@ -83,7 +83,7 @@ https://localhost:7274/api/Cliente/3fa85f64-5717-4562-b3fc-2c963f66afa6
 {
   "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
   "nome": "Marcelo",
-  "tipoPessoa": "FISICA",
+  "tipoPessoa": "fisica",
   "cpfCnpj": "999.999.999",
   "endereco": "R St Sebastian",
   "valor": 1300.50,
